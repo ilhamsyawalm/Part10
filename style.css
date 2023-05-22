@@ -67,10 +67,15 @@ p {
 button {
   width: 85%;
   height: 40px;
+  border: 1px solid black;
   border-radius: 20px;
   background-color: #3049d9;
   color: white;
   font-size: 17px;
+}
+
+button:active {
+  opacity: 0.5;
 }
 
 .footer {
